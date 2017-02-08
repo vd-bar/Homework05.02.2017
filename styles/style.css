@@ -1,0 +1,91 @@
+body{
+    margin:0;
+}
+
+.first{
+    display: none;
+}
+
+.first:target{
+    display: block;
+}
+
+.content{
+    display: flex;
+
+}
+.black{
+height: 100vh;
+    width: 280px;
+    background-color: black;
+    padding-right: 20px;
+}
+.white{
+    flex-grow: 1;
+    overflow: hidden;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li {
+   list-style: none;
+    margin-top: 35px;
+    font-size: 20px;
+}
+ul li {
+
+    margin-top:50px;
+    margin-left: 51px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+ul li>a{
+color: white;
+    margin-left: 30px;
+}
+ul li:nth-child(3){
+   background:url("../icon/mail.png")no-repeat center left 4px ;
+    padding-left: 44px;
+}
+
+ul li:nth-child(2){
+    background:url("../icon/question.png") no-repeat center left 13px;
+    padding-left: 44px;
+}
+ul li:nth-child(1){
+  background:url("../icon/globe.png") no-repeat center left 3px ;
+    padding-left: 44px;
+}
+ul li:nth-child(4){
+  background:url("../icon/facebook.png")no-repeat center left 10px ;
+    padding-left: 44px;
+}
+ul .li1{
+    padding: 20px;
+}
+ul{
+    padding-left: 5px;
+}
+.first{
+
+    padding-left: 5px;
+}
+
+
+
+.first{
+    text-indent: 0.8cm;
+    padding-left: 1cm;
+    font-family:"Berlin Sans FB Demi,serif";
+    text-align: justify;
+    margin-right: 20px;
+
+}
+.first h1{
+    font-family: "Times New Roman";
+    margin-bottom: 34px;
+}
+.first>div{
+    margin-bottom: 7px;
+
+}
