@@ -12,17 +12,21 @@ body{
 
 .content{
     display: flex;
+    height: 100vh;
 
 }
 .black{
-height: 100vh;
+
     width: 280px;
     background-color: black;
     padding-right: 20px;
+    flex-grow: 0;
+    align-items: inherit;
 }
 .white{
-    flex-grow: 1;
+    flex-grow: 2;
     overflow: hidden;
+    overflow: scroll;
 }
 ul li a{
     text-decoration: none;
